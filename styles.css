@@ -1,0 +1,806 @@
+@font-face {
+  font-family: 'Akzidenz';
+  src: url(fonts/Berthold-akzidenz-grotesk-be-medium-extended.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Akzidenz';
+  src: url(fonts/Berthold-akzidenz-grotesk-be-extended.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Akzidenz';
+  src: url(fonts/Berthold-akzidenz-grotesk-be-light-extended.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Akzidenz';
+  src: url(fonts/Akzidenz-grotesk-be-bold-extended-italic.ttf);
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Akzidenz';
+  src: url(fonts/Akzidenz-grotesk-be-bold-extended.ttf);
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Billion Dreams';
+  src: url(fonts/BillionDreams.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+/*------------------------------------ NAVIGATION HOME ------------------------------------------*/
+
+#navbar {
+  background-color: black;
+  position: fixed;
+  top: -70px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1;
+  height: 70px;
+}
+
+#navbar img {
+  height: 60px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.nav-link {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22.8px 22px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.5s;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  background-color: red;
+  color: white;
+  opacity: 1;
+}
+
+#homepage {
+  height: 100vh;
+  background-image: url('img/ramen-bg.gif');
+  background-size: cover;
+  overflow: hidden;
+  background-position: center top;
+  font-size: 25px;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.home-logo {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+hr {
+  border: none;
+  height: 4px;
+  background: white;
+  width: 92%;
+}
+
+.homepage a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+}
+
+.homepage a:hover {
+  text-decoration: none;
+  color: red;
+  letter-spacing: 1.5px;
+}
+
+/*------------------------------------ ABOUT US ------------------------------------------*/
+
+.e-d-r {
+  width: 50%;
+  margin: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.about-flex {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.about-image-1 {
+  width: 45%;
+  height: 100%;
+  background-image: url('img/friends-eating-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 0 40px;
+}
+
+.about-text-1 {
+  width: 45%;
+  padding: 0 40px;
+}
+
+.about-text-1 span {
+  font-family: 'Billion Dreams', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: red;
+  line-height: 1em;
+}
+
+.about-image-2 {
+  width: 45%;
+  height: 100%;
+  background-image: url('img/cooking-ramen2-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 0 40px;
+}
+
+.about-text-2 {
+  width: 45%;
+  padding: 0 40px;
+}
+
+.about-text-2 span {
+  color: red;
+}
+
+.about-image-3 {
+  width: 45%;
+  height: 100%;
+  background-image: url('img/catering-01.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 0 40px;
+}
+
+.about-text-3 {
+  width: 45%;
+  padding: 0 40px;
+}
+
+.about-text-3 span {
+  color: red;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.fav-text {
+  background: red;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.special-1-bg {
+  display: flex;
+  height: 500px;
+  background: black;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.special-1-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 100)
+  ), url('img/chicken-udon.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special-1-overlay-text {
+  position: absolute;
+  color: white;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  padding-right: 100px;
+  width: 40%;
+  text-align: right;
+}
+
+.special-1-overlay-text p {
+  font-size: 20px;
+}
+
+.special-2-bg {
+  display: flex;
+  height: 500px;
+  background: black;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.special-2-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(
+    to left,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 100)
+  ), url('img/tonkotsu-ramen-01.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special-2-overlay-text {
+  position: absolute;
+  color: white;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  padding-left: 100px;
+  width: 40%;
+  text-align: left;
+}
+
+.special-2-overlay-text p {
+  font-size: 20px;
+}
+
+.special-3-bg {
+  display: flex;
+  height: 500px;
+  background: black;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.special-3-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 100)
+  ), url('img/vegan-ramen-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special-3-overlay-text {
+  position: absolute;
+  color: white;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  padding-right: 100px;
+  width: 40%;
+  text-align: right;
+}
+
+.special-3-overlay-text p {
+  font-size: 20px;
+}
+
+.black-hr {
+  border: none;
+  height: 12px;
+  background: black;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.white-hr {
+  border: none;
+  height: 40px;
+  background: white;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.full-menu-bg {
+  display: flex;
+  height: 300px;
+  background: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-menu-bg-image {
+  opacity: .3;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-image: url('img/wave-art-01.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.full-menu-text {
+  position: absolute;
+  color: white;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  background: red;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.full-menu-text h1 {
+  font-size: 28px;
+}
+
+.full-menu-text:hover {
+  text-decoration: none;
+  color: red;
+  background: white;
+  border: 5px solid red;
+}
+
+/*------------------------------------ MENU ------------------------------------------*/
+#menu-page {
+  background: white;
+}
+
+#menu-page a {
+  border: 3px solid #dc3545;
+}
+
+.page-btn {
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  margin: 10px 30px;
+}
+
+.menu-bg {
+  display: flex;
+  height: 300px;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.drinks-bg-image {
+  opacity: .85;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url('img/drinks-menu-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.rolls-bg-image {
+  opacity: .85;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url('img/rolls-menu-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+.ramen-bg-image {
+  opacity: .85;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url('img/ramen-menu-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+.img-overlay-text {
+  position: absolute;
+  color: white;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  background: rgba(0,0,0,.65);
+  padding: 0 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-content {
+  color: black;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 300;
+}
+
+.menu-content p {
+  font-size: 14px;
+}
+
+p span {
+  color: red;
+  font-size: 16px;
+}
+
+.menu-vert-line {
+  border-left: 2px solid #e54c3c;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+}
+
+.square {
+  height: 5%;
+  width: 5%;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.menu-content h2 {
+  color: #e54c3c;
+}
+
+/*------------------------------------ LOCATION ------------------------------------------*/
+
+#location {
+  background-image: url('img/location-bg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  font-size: 25px;
+  font-family: 'Akzidenz', sans-serif;
+  font-weight: 300;
+}
+
+#location p {
+  font-size: 24px;
+}
+
+#navbar-location {
+  background: rgba(0,0,0,1);
+  position: fixed;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  height: 70px;
+}
+
+#navbar-location img {
+  height: 60px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.opac-bg {
+  background: rgba(0,0,0,.75);
+}
+
+.social-icons {
+  width: 50px;
+  margin-right: 10px;
+  opacity: .5;
+  transition: .5s;
+}
+
+.social-icons:hover {
+  opacity: 1;
+}
+
+.location-padding {
+  padding: 10px 0 15px 10px;
+}
+
+.map {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+/*------------------------------------ FOOTER ------------------------------------------*/
+
+.footer {
+  padding: 1rem;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+
+
+/*------------------------------------ MEDIA QUERIES ------------------------------------------*/
+
+@media (max-width: 800px) {
+  #location {
+    background-image: url('img/location-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center bottom;
+    font-size: 25px;
+    font-family: 'Akzidenz', sans-serif;
+    font-weight: 300;
+  }
+
+  #homepage {
+    height: 600px;
+    background-image: url('img/ramen-bg.png');
+    background-size: cover;
+    overflow: hidden;
+    background-position: 45% 50%;
+    font-size: 15px;
+  }
+
+  .about-flex {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    font-family: 'Akzidenz', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .about-image-1 {
+    width: 45%;
+    height: 100%;
+    background-image: url('img/friends-eating-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 0 20px;
+  }
+
+  .about-text-1 {
+    width: 45%;
+    padding: 0 20px;
+  }
+
+  .about-text-1 span {
+    font-family: 'Billion Dreams', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: red;
+    line-height: 1em;
+  }
+
+  .about-image-2 {
+    width: 45%;
+    height: 100%;
+    background-image: url('img/cooking-ramen2-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 0 20px;
+  }
+
+  .about-text-2 {
+    width: 45%;
+    padding: 0 20px;
+  }
+
+  .about-text-2 span {
+    color: red;
+  }
+
+  .about-image-3 {
+    width: 45%;
+    height: 100%;
+    background-image: url('img/catering-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 0 20px;
+  }
+
+  .about-text-3 {
+    width: 45%;
+    padding: 0 20px;
+  }
+
+  .about-text-3 span {
+    color: red;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .fav-text {
+    background: red;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Akzidenz', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .special-1-bg {
+    height: 300px;
+  }
+
+  .special-1-overlay-text {
+    font-size: 30px;
+    padding-right: 50px;
+    width: 50%;
+  }
+
+  .special-1-overlay-text h1 {
+    font-size: 30px;
+  }
+
+  .special-1-overlay-text p {
+    font-size: 16px;
+  }
+
+  .special-2-bg {
+    height: 300px;
+  }
+
+  .special-2-overlay-text {
+    font-size: 30px;
+    padding-left: 50px;
+    width: 50%;
+  }
+
+  .special-2-overlay-text h1 {
+    font-size: 30px;
+  }
+
+  .special-2-overlay-text p {
+    font-size: 16px;
+  }
+
+  .special-3-bg {
+    height: 300px;
+  }
+
+  .special-3-overlay-text {
+    font-size: 30px;
+    padding-right: 50px;
+    width: 50%;
+  }
+
+  .special-3-overlay-text h1 {
+    font-size: 28px;
+  }
+
+  .special-3-overlay-text p {
+    font-size: 15px;
+  }
+
+  .full-menu-bg {
+    height: 200px;
+  }
+
+  .full-menu-text {
+    padding: 10px;
+    border: 3px solid white;
+    text-decoration: none;
+  }
+
+  .full-menu-text h1 {
+    font-size: 20px;
+  }
+
+  #navbar img {
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .nav-link {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24.7px 13px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.5s;
+    font-family: 'Akzidenz', sans-serif;
+    font-weight: 100;
+  }
+
+  #navbar-location img {
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+
+  #homepage {
+    height: 600px;
+    background-image: url('img/ramen-bg.png');
+    background-size: cover;
+    overflow: hidden;
+    background-position: 45% 50%;
+    font-size: 15px;
+  }
+
+  .drinks-bg-image {
+    background-attachment: scroll;
+  }
+
+  .rolls-bg-image {
+    background-attachment: scroll;
+  }
+
+  .ramen-bg-image {
+    background-attachment: scroll;
+  }
+}
+
+
+
+
+
+
+/* end */
