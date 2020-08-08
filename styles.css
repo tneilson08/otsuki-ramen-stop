@@ -573,7 +573,6 @@ p span {
 
 @media (max-width: 800px) {
   #location {
-    background-image: url('img/location-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -585,7 +584,6 @@ p span {
 
   #homepage {
     height: 600px;
-    background-image: url('img/ramen-bg.png');
     background-size: cover;
     overflow: hidden;
     background-position: 45% 50%;
@@ -608,7 +606,6 @@ p span {
   .about-image-1 {
     width: 45%;
     height: 100%;
-    background-image: url('img/friends-eating-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -631,7 +628,6 @@ p span {
   .about-image-2 {
     width: 45%;
     height: 100%;
-    background-image: url('img/cooking-ramen2-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -650,7 +646,6 @@ p span {
   .about-image-3 {
     width: 45%;
     height: 100%;
-    background-image: url('img/catering-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -778,7 +773,6 @@ p span {
 
   #homepage {
     height: 600px;
-    background-image: url('img/ramen-bg.png');
     background-size: cover;
     overflow: hidden;
     background-position: 45% 50%;
