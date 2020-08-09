@@ -82,7 +82,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: red;
+  background-color: #cc0013;
   color: white;
   opacity: 1;
 }
@@ -122,7 +122,7 @@ hr {
 
 .homepage a:hover {
   text-decoration: none;
-  color: red;
+  color: #cc0013;
   letter-spacing: 1.5px;
 }
 
@@ -168,7 +168,7 @@ hr {
   font-family: 'Billion Dreams', sans-serif;
   font-weight: 500;
   font-size: 50px;
-  color: red;
+  color: #cc0013;
   line-height: 1em;
 }
 
@@ -188,7 +188,7 @@ hr {
 }
 
 .about-text-2 span {
-  color: red;
+  color: #cc0013;
 }
 
 .about-image-3 {
@@ -207,13 +207,13 @@ hr {
 }
 
 .about-text-3 span {
-  color: red;
+  color: #cc0013;
   font-weight: 700;
   font-size: 30px;
 }
 
 .fav-text {
-  background: red;
+  background: #cc0013;
   width: 100%;
   text-align: center;
   margin-left: auto;
@@ -377,8 +377,8 @@ hr {
   color: white;
   font-family: 'Akzidenz', sans-serif;
   font-weight: 500;
-  background: red;
-  padding: 20px;
+  background: #cc0013;
+  padding: 20px 20px 12px 20px;
   text-align: center;
   border: 5px solid white;
   text-decoration: none;
@@ -391,9 +391,9 @@ hr {
 
 .full-menu-text:hover {
   text-decoration: none;
-  color: red;
+  color: #cc0013;
   background: white;
-  border: 5px solid red;
+  border: 5px solid #cc0013;
 }
 
 /*------------------------------------ MENU ------------------------------------------*/
@@ -479,7 +479,7 @@ hr {
 }
 
 p span {
-  color: red;
+  color: #cc0013;
   font-size: 16px;
 }
 
@@ -621,7 +621,7 @@ p span {
     font-family: 'Billion Dreams', sans-serif;
     font-weight: 500;
     font-size: 40px;
-    color: red;
+    color: #cc0013;
     line-height: 1em;
   }
 
@@ -640,7 +640,7 @@ p span {
   }
 
   .about-text-2 span {
-    color: red;
+    color: #cc0013;
   }
 
   .about-image-3 {
@@ -658,13 +658,13 @@ p span {
   }
 
   .about-text-3 span {
-    color: red;
+    color: #cc0013;
     font-weight: 700;
     font-size: 22px;
   }
 
   .fav-text {
-    background: red;
+    background: #cc0013;
     width: 100%;
     text-align: center;
     margin-left: auto;
@@ -734,7 +734,7 @@ p span {
   }
 
   .full-menu-text {
-    padding: 10px;
+    padding: 10px 10px 4px 10px;
     border: 3px solid white;
     text-decoration: none;
   }
